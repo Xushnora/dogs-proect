@@ -37,7 +37,7 @@ body{
     padding: 0 10px;
 }
 
-.products-item:nth-child(2) .item-portion{
+.item-portion:hover{
     box-shadow: 0px 9px 14px -1px rgba(253, 148, 122, 0.26);
     border: none;
 
@@ -72,8 +72,20 @@ body{
 .products-img{
     width: 37px;
     height: 37px;
+   
+}
+
+.img-block{
+    content: '';
+    display: inline-block;
+    width: 63px;
+    height: 54px;
+    background-image: url('../images/Vector.svg');
+    background-repeat: no-repeat;
+    background-position: center;
     position: relative;
     bottom: 20px;
+    
 }
 
 .products-item:nth-child(2) .item-portion .products-img{
